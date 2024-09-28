@@ -23,7 +23,7 @@ The results from these assessments are included in this repository in the `Tasks
 
 ### 1. Nessus Scan
 1. **Open Nessus** and log in.
-2. Create a new **Basic Network Scan** targeting the IP address `10.0.2.4` of the Metasploitable VM.
+2. Create a new **Basic Network Scan** targeting the IP address `10.0.2.5` of the Metasploitable VM.
 3. Start the scan and wait for the results.
 4. After the scan completes, export the report as a **PDF** and save it.
 5. The generated PDF file is named `nessus_report.pdf`.
@@ -38,6 +38,6 @@ The results from these assessments are included in this repository in the `Tasks
 
 ### 3. Netcat Banner Grabbing
 1. Use Netcat to connect to the FTP service running on port 21 of the Metasploitable VM:
-```nc 10.0.2.4 21```
+```nc 10.0.2.5 21```
 2. This returns the banner of the FTP service (vsFTPd 2.3.4).
 3. A screenshot of the banner output is taken and saved as netcat_banner.png.
