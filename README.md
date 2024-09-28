@@ -7,7 +7,7 @@ This project contains security assessments performed on the **Metasploitable VM*
 2. **Nikto**: Web server vulnerability scanning.
 3. **Netcat**: Banner grabbing from open ports.
 
-The results from these assessments are included in this repository in the `Taskseven` folder.
+The results from these assessments are included in this repository in the `Task-7` folder.
 
 ---
 
